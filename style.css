@@ -1,9 +1,4 @@
-
-@font-face {
-    font-family: "Outfit";
-    src: url("https://fonts.google.com/specimen/Outfit") format('woff2');
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 body {
     background: hsl(212, 45%, 89%);
     width: 100vw;
@@ -29,12 +24,12 @@ body {
 }
 
 h1 {
-    font-family: "Outfit";
+    font-family: "Outfit", sans-serif;
     text-align: center;
 }
 
 p {
-    font-family: "Outfit";
+    font-family: "Outfit", sans-serif;
     font-size: 15px;
     text-align: center;
 }
